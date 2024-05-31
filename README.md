@@ -24,3 +24,11 @@ docker run -d nginx
 docker container stop 82
 docker container stop 8a
 docker ps -a
+
+# Exercise1.2_CLEAN UP
+## Commands:
+### Clean the Docker daemon by removing all images and containers:
+docker container prune
+docker image prune
+docker ps -a
+docker image ls
