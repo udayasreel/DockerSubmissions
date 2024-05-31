@@ -3,10 +3,10 @@ My Docker Exercises Submission
 # Exercise1.1_GettingStarted
 ## Commands: 
 ### Container 1:
-$ docker run nginx
-$ docker container ls 
+#### docker run nginx
+#### docker container ls 
 control + c
-$ docker run -d nginx
+#### docker run -d nginx
 
 ### Container 2:
 $ docker run nginx
