@@ -3,7 +3,7 @@ My Docker Exercises Submission
 # Exercise1.1_GettingStarted
 ## Commands: 
 ### Container 1:
-docker run nginx \n
+$ docker run nginx
 docker container ls 
 control + c
 docker run -d nginx
