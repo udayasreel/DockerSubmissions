@@ -4,7 +4,7 @@ My Docker Exercises Submission
 ## Commands: 
 ### Container 1:
 $ docker run nginx
-docker container ls 
+$ docker container ls 
 control + c
 docker run -d nginx
 
