@@ -29,3 +29,14 @@ My Docker Exercises Submission
 #### $ docker image prune
 #### $ docker ps -a
 #### $ docker image ls
+
+# EXERCISE 1.3: SECRET MESSAGE
+## Commands:
+### Image devopsdockeruh/simple-web-service:ubuntu will start a container that outputs logs into a file
+#### $ docker run -d --rm -it --name secret-message -it devopsdockeruh/simple-web-service:ubuntu
+#### $ docker exec -it secret-message bash
+### Go inside the running container and use tail -f ./text.log to follow the logs. Every 10 seconds the clock will send you a "secret message"
+#### $ tail -f ./text.log
+### Secret Message
+#### Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+
